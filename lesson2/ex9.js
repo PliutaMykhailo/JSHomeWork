@@ -1,18 +1,25 @@
 "use strict";
 
 // Отсортировать массив по убыванию.
-// [6,5,4,3,2,1]
+// [6, 5, 4, 3, 2, 1]
 
 var arr = [1, 2, 3, 4, 5, 6];
 var arrNew = [];
 var i;
-var l;
+var j;
+var l = arr.length - 1;
 
-l = arr.length;
+for (j = 0; j < arr.length; j++) {
+  for (i = 0; i < l; i++) {
+    if (arr[i] > arr[i + 1]) {
+      var save = arr[i + 1];
+      arr[i + 1] = arr[i];
+      arr[i] = save;
+    }
+  }
 
-for (i of arr) {
+  arrNew[j] = arr[i];
   l = l - 1;
-  arrNew[l] = i;
 }
 
 console.log(arrNew);
