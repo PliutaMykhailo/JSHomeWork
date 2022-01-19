@@ -8,8 +8,7 @@ f('Content'); // Error: parameter type is not a Number
 
 function f(n) {
   if (typeof n === "number") {
-    let calcCube = n ** 3;
-    console.log(calcCube);
+    console.log(n ** 3);
   } else {
     console.log("Error: parameter type is not a Number");
   }
