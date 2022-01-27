@@ -10,7 +10,7 @@ const arr = [1,2,3];
 forEach(arr, function(item, i, arr) {});
 */
 
-function myForEach(arr, callback) {
+function forEach(arr, callback) {
   if (Array.isArray(arr)) {
     if (typeof callback === "function") {
       for (var i = 0; i < arr.length; i = i + 1) {
@@ -26,6 +26,6 @@ function myForEach(arr, callback) {
 
 const arr = [1, 2, 3];
 
-myForEach(arr, function (item, i, arr) {
+forEach(arr, function (item, i, arr) {
   console.log("number: " + item + ", index: " + i + ", array:", arr);
 });
