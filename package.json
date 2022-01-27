@@ -1,0 +1,22 @@
+{
+  "name": "jshomework",
+  "version": "1.0.0",
+  "description": "jshomework",
+  "main": "index.js",
+  "scripts": {
+    "test": "esl"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PliutaMykhailo/JSHomeWork.git"
+  },
+  "keywords": [
+    "esl"
+  ],
+  "author": "Pliuta Mykhailo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PliutaMykhailo/JSHomeWork/issues"
+  },
+  "homepage": "https://github.com/PliutaMykhailo/JSHomeWork#readme"
+}
